@@ -1,3 +1,9 @@
+A boogle game:
+To start: 4x4 grid 
+30 seconds per player 
+each part of the grid 
+check words with a dictionary database
+which ever player has more words wins 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
