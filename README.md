@@ -74,3 +74,28 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If need to bring this: 
+   const dice1 = ["a",a,a,f,r,s];
+const dice2 = [a,a,e,e,e,e];
+const dice3 = [a,a,f,i,r,s];
+const dice4 = [a,d,e,n,n,n];
+const dice5 = [a,e,e,e,e,m];
+const dice6 = [a,e,e,g,m,u];
+const dice7 = [a,e,g,m,n,n];
+const dice8 = [a,f,i,r,s,y];
+const dice9 = [b,j,k,q,x,z];
+const dice10 = [c,e,i,i,l,t];
+const dice11 = [c,e,i,l,p,t];
+const dice12 = [c,e,i,p,s,t];
+const dice13 = [d,d,h,n,o,t];
+const dice14 = [qu,h,h,l,o,r];
+const dice15 = [d,h,l,n,o,r];
+const dice17 = [d,h,l,n,o,r];
+const dice18 = [e,i,i,i,t,t];
+const dice19 = [e,m,o,t,t,t];
+const dice20 = [e,n,s,s,s,u];
+const dice21 = [f,i,p,r,s,y];
+const dice22 = [g,o,r,r,v,w];
+const dice23 = [i,p,r,r,r,y];
+const dice24 = [n,o,o,t,u,w];
+const dice25 = [o,o,o,t,t,u];
