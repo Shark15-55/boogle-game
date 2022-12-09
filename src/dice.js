@@ -5,7 +5,6 @@ export function getRound(dice) {
   function getFace(dice) {
     const faces = [];
     for (let i = 0; i < dice.length; i++) {
-        dice[i].toUpperCase();
       const face = dice[i];
       if (face === "Q") {
         i++;
