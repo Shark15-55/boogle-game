@@ -2,6 +2,7 @@ import { useState } from "react";
 import Board from "./Board";
 import { getRound } from "./dice";
 import "./index.css";
+import ScoreBoard from "./score"; 
 
 
 // Note that `Qu` is one side of a die and counts as two letters in the scoring. All other letters are by themselves.
@@ -70,7 +71,7 @@ export default function App() {
 
 
 
-    const [wordLog, setWordLog] = useState([]);
+    const [wordLog, setWordLog] = useState([""]);
   
     const addWordLog = (log) => {
       let logs = [...wordLog, log]
@@ -79,6 +80,7 @@ export default function App() {
   
     
     console.log(wordLog)
+    console.log(wordLog[-1])
   
     return (
     <div className="App">
@@ -87,6 +89,8 @@ export default function App() {
       <Board dices={dices} />
       <TweetForm addWordLog={addWordLog} />
       <TweetChart word={wordLog} />
+      <ScoreBoard LwordEntered={wordLog[-1]} />
+
     </div>
 
   );
